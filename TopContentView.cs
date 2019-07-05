@@ -11,7 +11,7 @@ using System.Threading;
 using System.Collections;
 using System.Linq.Expressions;
 
-namespace TopContentView
+namespace Control
 {
     /* topContentViews will appear in the order they where given/added to parent view
      * with the latest one added added at the most top (Z-axis). 
@@ -64,13 +64,79 @@ namespace TopContentView
                         // consider handle removal of event handlers when parent is beging removed (propertychanging)
                     }
                 }
+                if(e.PropertyName == "Content")
+                {
+                    if(Content != null)
+                    {
+                        Listen(Content); // get notification when WidthRequest and heightRequest in any decendant control changes
+                    }
+                }
+   
             };
 
+            /* Needed to provide height for content when it was visibility initially was set to false */
+            this.PropertyChanging += (object sender, Xamarin.Forms.PropertyChangingEventArgs e) =>
+            {
+                
+                if(e.PropertyName == "IsVisible")
+                {
+                    if(!IsVisible) // changing to true
+                    {
+                        WidthRequest = -1;
+                        HeightRequest = -1;
+                    }
+                }
+                
+            };
         }
+        /* Needs testing with more complex decendant layouts and controls scenarios */
+        VisualElement Listen(VisualElement visualElement)
+        {
+            visualElement.PropertyChanging += VisualElement_PropertyChanging;
+            // target all layouts
 
+            if(visualElement is Layout<View> layoutWithChildren)
+            {
+
+                foreach(var child in layoutWithChildren.Children)
+                {
+                    Listen(child);
+                }
+            }
+            else if(visualElement is Layout layoutWithContent)
+            {
+                var property = layoutWithContent.GetType().GetProperty("Content");
+
+                var get = layoutWithContent.GetType().GetProperty("Content").GetGetMethod();
+
+                var content = (VisualElement) get.Invoke(layoutWithContent, new object[] { });
+                Listen(content);
+            }
+            return visualElement;
+        }
+        
+        private void VisualElement_PropertyChanging(object sender, Xamarin.Forms.PropertyChangingEventArgs e)
+        {
+            var visualElement = ((VisualElement)sender);
+
+            if(e.PropertyName == "WidthRequest")
+            {
+                WidthRequest = -1;
+
+            }
+            if(e.PropertyName == "HeightRequest")
+            {
+                HeightRequest = -1;
+
+            }
+        }
         /* can run two times. This happens when verticaloptions/horizontaloptions is set on any control
         * inside the layout and app uses appshell/is shellcontent. (probably caused from navigationbar)
         * reproduce in new project, report bug.
+        */
+        /* many calls are made beacuse width/height requests need resetting to 0 to hide empty area.
+        * Visibility and decendant width/height request is monitored manually with Listener and sets it -1
+        * so that parent layout draws the content.
         */
         private double width = -1;
         private double height = -1;
@@ -80,6 +146,7 @@ namespace TopContentView
             var layout = (Layout<View>)sender;
 
             // Console.WriteLine("Rerender with new bounds");
+
             if (Width > 0)
             {
                 width = Width;
@@ -88,14 +155,18 @@ namespace TopContentView
             {
                 height = Height;
             }
+            var w = WidthRequest;
+            var h = HeightRequest;
 
             // flickering on topcontentview after adding a few labels -and sometimes dissappearing - has dissapeared
 
-            // removes empty area created in the original position by the layout
+            // 0 removes empty area created in the original position by the layout but -1 is needed to get updated width and height
             WidthRequest = 0;
             HeightRequest = 0;
+            
             // Console.WriteLine("width: " + width + ", height: " + height);
             Layout(new Rectangle(X, Y, width, height)); // makes the content
+
         }
 
         public static new BindableProperty XProperty =
@@ -168,7 +239,13 @@ namespace TopContentView
                  * error
                  * delays the changing of observablecollection - thus occuring after LayoutChanged event.
                  */
+                /*
                 Device.InvokeOnMainThreadAsync(() =>
+                {
+                    (Parent as Layout<View>).RaiseChild(this);
+                });
+                */
+                Device.BeginInvokeOnMainThread(() =>
                 {
                     (Parent as Layout<View>).RaiseChild(this);
                 });
