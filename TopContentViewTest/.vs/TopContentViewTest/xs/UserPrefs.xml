@@ -1,0 +1,25 @@
+﻿<Properties StartupConfiguration="{7C5E967A-319E-49CD-AE23-9E71CA65829D}|Default">
+  <MonoDevelop.Ide.ItemProperties.TopContentViewTest.iOS FirstBuild="True" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.537C6C60-CA0D-4EFE-8553-13F4D2B494DD" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="TopContentViewTest/Views/AboutPage.xaml">
+    <Files>
+      <File FileName="TopContentViewTest/Views/AboutPage.xaml.cs" Line="1" Column="1" />
+      <File FileName="TopContentViewTest/Views/AboutPage.xaml" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="TopContentViewTest" expanded="True" selected="True">
+            <Node name="TopContentViewTest" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
+  <MonoDevelop.Ide.ItemProperties.TopContentViewTest FirstBuild="True" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
