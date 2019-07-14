@@ -30,24 +30,37 @@ namespace Control
             */
             this.PropertyChanged += (object sender, PropertyChangedEventArgs e) =>
             {
-
+                
                 if (e.PropertyName == "X")
                 {
-                    if (!double.Equals(x, X))
-                    {
-                        // why are this called 2 times?
-                        // Console.WriteLine("x: " + x + " not equal to X: " + X);
-                        X = x;
 
+                    double d = -1;
+                    if (!double.Equals(x, d))
+                    {
+                        X = x;
                     }
+                    
+                    var a = x;
+                    var b = X; // 284 375 & 284 & 284
+                    
                 }
                 else if (e.PropertyName == "Y")
                 {
-                    // Console.WriteLine("y: " + y + " and " + "Y: " + Y);
-                    if (!double.Equals(y, Y))
+
+                    double d = -1;
+                    if (!double.Equals(y, d))
                     {
                         Y = y;
                     }
+                    else
+                    {
+                        // Y = Y;
+                    }
+
+
+                    var a = y;
+                    var b = Y; // 597 603 & 597 533 & 572 508
+                    
                 }
                 if (e.PropertyName == "Parent")
                 {
@@ -56,12 +69,16 @@ namespace Control
 
                     if (layout != null)
                     {
+                        // causes topContentView to dissapear out of screen Y cordinate when using verticaloptions
                         layout.LayoutChanged -= TopContentView_LayoutChanged;
                         layout.LayoutChanged += TopContentView_LayoutChanged;
+
+                        /* works fine */
                         var collection = (INotifyCollectionChanged)layout.Children;
                         collection.CollectionChanged -= Collection_CollectionChanged;
                         collection.CollectionChanged += Collection_CollectionChanged;
                         // consider handle removal of event handlers when parent is beging removed (propertychanging)
+                        
                     }
                 }
                 if(e.PropertyName == "Content")
@@ -150,22 +167,32 @@ namespace Control
             if (Width > 0)
             {
                 width = Width;
+
             }
             if (Height > 0)
             {
                 height = Height;
+
             }
             var w = WidthRequest;
             var h = HeightRequest;
 
             // flickering on topcontentview after adding a few labels -and sometimes dissappearing - has dissapeared
 
-            // 0 removes empty area created in the original position by the layout but -1 is needed to get updated width and height
-            WidthRequest = 0;
-            HeightRequest = 0;
             
-            // Console.WriteLine("width: " + width + ", height: " + height);
-            Layout(new Rectangle(X, Y, width, height)); // makes the content
+            double d = -1;
+            if(!double.Equals(x, d) && !double.Equals(y, d))  
+            {
+                // follwing will result in topContentView not being shown - unless checked for - when X and Y not has been specified
+                // removes empty area created in the original position by the layout but - 1 is needed to get updated width and height
+                WidthRequest = 0;
+                HeightRequest = 0;
+
+                // Console.WriteLine("width: " + width + ", height: " + height);
+                Layout(new Rectangle(X, Y, width, height)); // makes the content
+
+            }
+            
 
         }
 
@@ -173,7 +200,7 @@ namespace Control
             BindableProperty.Create("X", typeof(double), typeof(TopContentView), propertyChanged:
                 (BindableObject bindable, object oldValue, object newValue) => (bindable as TopContentView).X = (double)newValue);
 
-        private double x;
+        private double x = -1;
         public new double X
         {
             get
@@ -197,7 +224,7 @@ namespace Control
             BindableProperty.Create("Y", typeof(double), typeof(TopContentView), propertyChanged:
                 (BindableObject bindable, object oldValue, object newValue) => (bindable as TopContentView).Y = (double)newValue);
 
-        private double y;
+        private double y = -1;
         public new double Y
         {
             get
@@ -253,9 +280,45 @@ namespace Control
         }
     }
 
+    public class AsyncEventListener
+    {
+        private object sender;
+        private EventArgs eventArgs;
+        public AsyncEventListener()
+        {
+            Func<double> func = () =>
+            {
+                if (sender is View view) // sufficiently supporting all controls?
+                {
+                    Console.WriteLine("Got height");
+                    view.SizeChanged -= this.Listen;
+                    return view.Height;
+                }
+                throw new Exception("AsyncEventListener could not listen for SizeChanged on " + sender + " as it was not a View");
+            };
+            Successfully = new Task<double>(func);
+        }
+
+        public void Listen(object sender, EventArgs eventArgs)
+        {
+            this.sender = sender;
+            this.eventArgs = eventArgs;
+            if (!Successfully.IsCompleted)
+            {
+                Console.WriteLine("running synchornisously");
+                Successfully.RunSynchronously();
+
+            }
+        }
+
+        public Task<double> Successfully { get; }
+    }
+
     /*
      * Need to enable WidthRequest and HeightRequest - so they can be set and used as expected <--
      * Need to correct/adjust for when parent layout has spacing
     */
+
+    // why is it needed to rebuild everything to have changes take effect?
 
 }
