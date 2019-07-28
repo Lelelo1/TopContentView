@@ -27,3 +27,12 @@
 /Users/leowetterek/Desktop/TopContentView/TopContentView/obj/Debug/netstandard2.0/XamlC.stamp
 /Users/leowetterek/Desktop/TopContentView/TopContentView/obj/Debug/netstandard2.0/TopContentView.dll
 /Users/leowetterek/Desktop/TopContentView/TopContentView/obj/Debug/netstandard2.0/TopContentView.pdb
+/Users/leowetterek/Projects/TopContentView/TopContentView/bin/Debug/netstandard2.0/TopContentView.deps.json
+/Users/leowetterek/Projects/TopContentView/TopContentView/bin/Debug/netstandard2.0/TopContentView.dll
+/Users/leowetterek/Projects/TopContentView/TopContentView/bin/Debug/netstandard2.0/TopContentView.pdb
+/Users/leowetterek/Projects/TopContentView/TopContentView/obj/Debug/netstandard2.0/TopContentView.csproj.CoreCompileInputs.cache
+/Users/leowetterek/Projects/TopContentView/TopContentView/obj/Debug/netstandard2.0/TopContentView.AssemblyInfoInputs.cache
+/Users/leowetterek/Projects/TopContentView/TopContentView/obj/Debug/netstandard2.0/TopContentView.AssemblyInfo.cs
+/Users/leowetterek/Projects/TopContentView/TopContentView/obj/Debug/netstandard2.0/XamlC.stamp
+/Users/leowetterek/Projects/TopContentView/TopContentView/obj/Debug/netstandard2.0/TopContentView.dll
+/Users/leowetterek/Projects/TopContentView/TopContentView/obj/Debug/netstandard2.0/TopContentView.pdb

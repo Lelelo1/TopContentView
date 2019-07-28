@@ -3,42 +3,26 @@
     xmlns="http://xamarin.com/schemas/2014/forms"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     x:Class="TopContentViewTest.Views.TestPage"
-    xmlns:control="clr-namespace:Control;assembly=TopContentView">
+    xmlns:control="clr-namespace:TopContentView;assembly=TopContentView">
     <ContentPage.Content>
-        <StackLayout x:Name="rootStack" Spacing="0">
-            <Button Text="test" BackgroundColor="Silver" HorizontalOptions="Start" Clicked="Handle_Clicked"/>
-            <!--<Label Text="im atest" /> -->
-            <!--<WebView WidthRequest="400" HeightRequest="500" Source="https://forums.xamarin.com" />-->
-            <Label Text="eeeeee" BackgroundColor="red" VerticalOptions="EndAndExpand"/>
-            
+        <StackLayout x:Name="rootStack">
+            <Button Text="test" WidthRequest="100" BackgroundColor="Silver" HorizontalOptions="Center" Clicked="Handle_Clicked"/>
+            <Label Text="im atest" VerticalOptions="EndAndExpand"/> 
+            <WebView WidthRequest="500" HeightRequest="700" Source="https://forums.xamarin.com"/>
             <control:TopContentView X="40" Y=" 300" BackgroundColor="Gray" x:Name="topContentView">
                <StackLayout HorizontalOptions="Start" x:Name="stack">
                    <Label Text="Yo Im on top" HorizontalOptions="Start" />
-                   <Button Text="button" BackgroundColor="Silver" HorizontalOptions="Start" Clicked="Handle_Clicked"/>
+                   <Button Text="button" BackgroundColor="Silver" HorizontalOptions="Start"/>
                </StackLayout>
             </control:TopContentView>
             <control:TopContentView X="50" Y=" 340" BackgroundColor="Blue" x:Name="topContentView1">
                <StackLayout HorizontalOptions="Start" x:Name="stack1">
                    <Label Text="Yo Im on top" HorizontalOptions="Start" />
-                   <Button Text="button" BackgroundColor="Silver" HorizontalOptions="Start" Clicked="Handle_Clicked"/>
+                   <Button Text="button" BackgroundColor="Silver" HorizontalOptions="Start"/>
                </StackLayout>
             </control:TopContentView>
-            <!--
-            <StackLayout HorizontalOptions="EndAndExpand" VerticalOptions="EndAndExpand"  BackgroundColor="Gray" x:Name="topContentView">
-               <Label Text="Yo Im on top" HorizontalOptions="Start" />
-               <Button Text="button" BackgroundColor="Silver" HorizontalOptions="Start" Clicked="Handle_Clicked"/>
-            </StackLayout>
-            -->
 
-            <!--
-            <ContentView HorizontalOptions="EndAndExpand" VerticalOptions="EndAndExpand"  BackgroundColor="Blue" x:Name="topContentView">
-               <StackLayout HorizontalOptions="Start">
-                   <Label Text="Yo Im on top" HorizontalOptions="Start" />
-                   <Button Text="button" BackgroundColor="Silver" HorizontalOptions="Start" Clicked="Handle_Clicked"/>
-               </StackLayout>
-            </ContentView>
-            -->
-            <Label Text="tttttt" BackgroundColor="orange"/>
+            <Label Text="I am a label" BackgroundColor="orange"/>
             
         </StackLayout>
     </ContentPage.Content>

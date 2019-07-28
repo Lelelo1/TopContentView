@@ -11,7 +11,7 @@ using System.Threading;
 using System.Collections;
 using System.Linq.Expressions;
 
-namespace Control
+namespace TopContentView
 {
     /* topContentViews will appear in the order they where given/added to parent view
      * with the latest one added added at the most top (Z-axis). 

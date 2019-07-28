@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/leowetterek/Desktop/TopContentView/TopContentViewTest.iOS/TopContentViewTest.iOS.csproj": {}
+    "/Users/leowetterek/Projects/TopContentView/TopContentViewTest.iOS/TopContentViewTest.iOS.csproj": {}
   },
   "projects": {
-    "/Users/leowetterek/Desktop/TopContentView/TopContentView/TopContentView.csproj": {
+    "/Users/leowetterek/Projects/TopContentView/TopContentView/TopContentView.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/leowetterek/Desktop/TopContentView/TopContentView/TopContentView.csproj",
+        "projectUniqueName": "/Users/leowetterek/Projects/TopContentView/TopContentView/TopContentView.csproj",
         "projectName": "TopContentView",
-        "projectPath": "/Users/leowetterek/Desktop/TopContentView/TopContentView/TopContentView.csproj",
+        "projectPath": "/Users/leowetterek/Projects/TopContentView/TopContentView/TopContentView.csproj",
         "packagesPath": "/Users/leowetterek/.nuget/packages/",
-        "outputPath": "/Users/leowetterek/Desktop/TopContentView/TopContentView/obj/",
+        "outputPath": "/Users/leowetterek/Projects/TopContentView/TopContentView/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
@@ -53,7 +53,7 @@
             },
             "Xamarin.Forms": {
               "target": "Package",
-              "version": "[4.1.0.581479, )"
+              "version": "[4.1.0.618606, )"
             }
           },
           "imports": [
@@ -64,14 +64,14 @@
         }
       }
     },
-    "/Users/leowetterek/Desktop/TopContentView/TopContentViewTest.iOS/TopContentViewTest.iOS.csproj": {
+    "/Users/leowetterek/Projects/TopContentView/TopContentViewTest.iOS/TopContentViewTest.iOS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/leowetterek/Desktop/TopContentView/TopContentViewTest.iOS/TopContentViewTest.iOS.csproj",
+        "projectUniqueName": "/Users/leowetterek/Projects/TopContentView/TopContentViewTest.iOS/TopContentViewTest.iOS.csproj",
         "projectName": "TopContentViewTest.iOS",
-        "projectPath": "/Users/leowetterek/Desktop/TopContentView/TopContentViewTest.iOS/TopContentViewTest.iOS.csproj",
+        "projectPath": "/Users/leowetterek/Projects/TopContentView/TopContentViewTest.iOS/TopContentViewTest.iOS.csproj",
         "packagesPath": "/Users/leowetterek/.nuget/packages/",
-        "outputPath": "/Users/leowetterek/Desktop/TopContentView/TopContentViewTest.iOS/obj/",
+        "outputPath": "/Users/leowetterek/Projects/TopContentView/TopContentViewTest.iOS/obj/",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "configFilePaths": [
@@ -86,8 +86,8 @@
         "frameworks": {
           "xamarinios10": {
             "projectReferences": {
-              "/Users/leowetterek/Desktop/TopContentView/TopContentViewTest/TopContentViewTest.csproj": {
-                "projectPath": "/Users/leowetterek/Desktop/TopContentView/TopContentViewTest/TopContentViewTest.csproj"
+              "/Users/leowetterek/Projects/TopContentView/TopContentViewTest/TopContentViewTest.csproj": {
+                "projectPath": "/Users/leowetterek/Projects/TopContentView/TopContentViewTest/TopContentViewTest.csproj"
               }
             }
           }
@@ -98,7 +98,7 @@
           "dependencies": {
             "Xamarin.Forms": {
               "target": "Package",
-              "version": "[4.1.0.581479, )"
+              "version": "[4.1.0.618606, )"
             }
           }
         }
@@ -115,14 +115,14 @@
         }
       }
     },
-    "/Users/leowetterek/Desktop/TopContentView/TopContentViewTest/TopContentViewTest.csproj": {
+    "/Users/leowetterek/Projects/TopContentView/TopContentViewTest/TopContentViewTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/leowetterek/Desktop/TopContentView/TopContentViewTest/TopContentViewTest.csproj",
+        "projectUniqueName": "/Users/leowetterek/Projects/TopContentView/TopContentViewTest/TopContentViewTest.csproj",
         "projectName": "TopContentViewTest",
-        "projectPath": "/Users/leowetterek/Desktop/TopContentView/TopContentViewTest/TopContentViewTest.csproj",
+        "projectPath": "/Users/leowetterek/Projects/TopContentView/TopContentViewTest/TopContentViewTest.csproj",
         "packagesPath": "/Users/leowetterek/.nuget/packages/",
-        "outputPath": "/Users/leowetterek/Desktop/TopContentView/TopContentViewTest/obj/",
+        "outputPath": "/Users/leowetterek/Projects/TopContentView/TopContentViewTest/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
@@ -145,8 +145,8 @@
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "/Users/leowetterek/Desktop/TopContentView/TopContentView/TopContentView.csproj": {
-                "projectPath": "/Users/leowetterek/Desktop/TopContentView/TopContentView/TopContentView.csproj"
+              "/Users/leowetterek/Projects/TopContentView/TopContentView/TopContentView.csproj": {
+                "projectPath": "/Users/leowetterek/Projects/TopContentView/TopContentView/TopContentView.csproj"
               }
             }
           }
@@ -168,11 +168,11 @@
             },
             "Xamarin.Essentials": {
               "target": "Package",
-              "version": "[1.1.0, )"
+              "version": "[1.2.0, )"
             },
             "Xamarin.Forms": {
               "target": "Package",
-              "version": "[4.1.0.581479, )"
+              "version": "[4.1.0.618606, )"
             }
           },
           "imports": [

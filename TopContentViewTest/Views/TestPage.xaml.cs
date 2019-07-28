@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-using Control;
+using TopContentView;
 using Xamarin.Forms;
 
 namespace TopContentViewTest.Views
@@ -35,6 +35,8 @@ namespace TopContentViewTest.Views
             */
             // topContentView.X = topContentView.X;
             // topContentView.Y = 508;
+
+
             stack.WidthRequest = 160;
             stack.HeightRequest = 200;
         }

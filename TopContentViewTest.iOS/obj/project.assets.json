@@ -11,7 +11,7 @@
           "lib/xamarinios10/_._": {}
         }
       },
-      "Xamarin.Essentials/1.1.0": {
+      "Xamarin.Essentials/1.2.0": {
         "type": "package",
         "dependencies": {
           "System.Numerics.Vectors": "4.5.0"
@@ -26,7 +26,7 @@
           "lib/xamarinios10/Xamarin.Essentials.dll": {}
         }
       },
-      "Xamarin.Forms/4.1.0.581479": {
+      "Xamarin.Forms/4.1.0.618606": {
         "type": "package",
         "compile": {
           "lib/Xamarin.iOS10/Xamarin.Forms.Core.dll": {},
@@ -153,7 +153,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "Xamarin.Forms": "4.1.0.581479"
+          "Xamarin.Forms": "4.1.0.618606"
         },
         "compile": {
           "bin/placeholder/TopContentView.dll": {}
@@ -167,8 +167,8 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "TopContentView": "1.0.0",
-          "Xamarin.Essentials": "1.1.0",
-          "Xamarin.Forms": "4.1.0.581479"
+          "Xamarin.Essentials": "1.2.0",
+          "Xamarin.Forms": "4.1.0.618606"
         },
         "compile": {
           "bin/placeholder/TopContentViewTest.dll": {}
@@ -188,7 +188,7 @@
           "lib/xamarinios10/_._": {}
         }
       },
-      "Xamarin.Essentials/1.1.0": {
+      "Xamarin.Essentials/1.2.0": {
         "type": "package",
         "dependencies": {
           "System.Numerics.Vectors": "4.5.0"
@@ -203,7 +203,7 @@
           "lib/xamarinios10/Xamarin.Essentials.dll": {}
         }
       },
-      "Xamarin.Forms/4.1.0.581479": {
+      "Xamarin.Forms/4.1.0.618606": {
         "type": "package",
         "compile": {
           "lib/Xamarin.iOS10/Xamarin.Forms.Core.dll": {},
@@ -330,7 +330,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "Xamarin.Forms": "4.1.0.581479"
+          "Xamarin.Forms": "4.1.0.618606"
         },
         "compile": {
           "bin/placeholder/TopContentView.dll": {}
@@ -344,8 +344,8 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "TopContentView": "1.0.0",
-          "Xamarin.Essentials": "1.1.0",
-          "Xamarin.Forms": "4.1.0.581479"
+          "Xamarin.Essentials": "1.2.0",
+          "Xamarin.Forms": "4.1.0.618606"
         },
         "compile": {
           "bin/placeholder/TopContentViewTest.dll": {}
@@ -365,7 +365,7 @@
           "lib/xamarinios10/_._": {}
         }
       },
-      "Xamarin.Essentials/1.1.0": {
+      "Xamarin.Essentials/1.2.0": {
         "type": "package",
         "dependencies": {
           "System.Numerics.Vectors": "4.5.0"
@@ -380,7 +380,7 @@
           "lib/xamarinios10/Xamarin.Essentials.dll": {}
         }
       },
-      "Xamarin.Forms/4.1.0.581479": {
+      "Xamarin.Forms/4.1.0.618606": {
         "type": "package",
         "compile": {
           "lib/Xamarin.iOS10/Xamarin.Forms.Core.dll": {},
@@ -507,7 +507,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "Xamarin.Forms": "4.1.0.581479"
+          "Xamarin.Forms": "4.1.0.618606"
         },
         "compile": {
           "bin/placeholder/TopContentView.dll": {}
@@ -521,8 +521,8 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "TopContentView": "1.0.0",
-          "Xamarin.Essentials": "1.1.0",
-          "Xamarin.Forms": "4.1.0.581479"
+          "Xamarin.Essentials": "1.2.0",
+          "Xamarin.Forms": "4.1.0.618606"
         },
         "compile": {
           "bin/placeholder/TopContentViewTest.dll": {}
@@ -542,7 +542,7 @@
           "lib/xamarinios10/_._": {}
         }
       },
-      "Xamarin.Essentials/1.1.0": {
+      "Xamarin.Essentials/1.2.0": {
         "type": "package",
         "dependencies": {
           "System.Numerics.Vectors": "4.5.0"
@@ -557,7 +557,7 @@
           "lib/xamarinios10/Xamarin.Essentials.dll": {}
         }
       },
-      "Xamarin.Forms/4.1.0.581479": {
+      "Xamarin.Forms/4.1.0.618606": {
         "type": "package",
         "compile": {
           "lib/Xamarin.iOS10/Xamarin.Forms.Core.dll": {},
@@ -684,7 +684,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "Xamarin.Forms": "4.1.0.581479"
+          "Xamarin.Forms": "4.1.0.618606"
         },
         "compile": {
           "bin/placeholder/TopContentView.dll": {}
@@ -698,8 +698,8 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "TopContentView": "1.0.0",
-          "Xamarin.Essentials": "1.1.0",
-          "Xamarin.Forms": "4.1.0.581479"
+          "Xamarin.Essentials": "1.2.0",
+          "Xamarin.Forms": "4.1.0.618606"
         },
         "compile": {
           "bin/placeholder/TopContentViewTest.dll": {}
@@ -758,10 +758,10 @@
         "version.txt"
       ]
     },
-    "Xamarin.Essentials/1.1.0": {
-      "sha512": "W0XOt1dNMAE2POcsVotoKDDy5FdAOnR0qULKl6WI4kQEMxQ1sp84DsSU5iacV7oQUMuPhUBAm/3ywks0HO1QrQ==",
+    "Xamarin.Essentials/1.2.0": {
+      "sha512": "o3i5uAchUpAvAlJX0onYFFiDo6jpKl9vgvrdDtXEuEfum0UDrSx8oGGBUjlFyUoRpvWVumXwo0VS3AbzuwEofg==",
       "type": "package",
-      "path": "xamarin.essentials/1.1.0",
+      "path": "xamarin.essentials/1.2.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -797,14 +797,14 @@
         "lib/xamarinios10/Xamarin.Essentials.pdb",
         "lib/xamarinios10/Xamarin.Essentials.xml",
         "readme.txt",
-        "xamarin.essentials.1.1.0.nupkg.sha512",
+        "xamarin.essentials.1.2.0.nupkg.sha512",
         "xamarin.essentials.nuspec"
       ]
     },
-    "Xamarin.Forms/4.1.0.581479": {
-      "sha512": "wrO8AOW1xsFoGgT1SUvJ9OEeqAduJOm0xezZGNe0rCiAv2N9Qc/n5uywhlSia1s1k+Zy/hOrhZ4b7/EM6z9oog==",
+    "Xamarin.Forms/4.1.0.618606": {
+      "sha512": "qJoOu0DiSzsfQj7nuMtKUcl39KsUxfU9yDJ5HU1flM+hnOrSD6IyDgKKxOkqIdmVwAL8R6hISz+b8MB4P5oDFw==",
       "type": "package",
-      "path": "xamarin.forms/4.1.0.581479",
+      "path": "xamarin.forms/4.1.0.618606",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1043,7 +1043,7 @@
         "lib/uap10.0/Xamarin.Forms.Xaml.dll",
         "lib/uap10.0/Xamarin.Forms.Xaml.pdb",
         "lib/uap10.0/Xamarin.Forms.Xaml.xml",
-        "xamarin.forms.4.1.0.581479.nupkg.sha512",
+        "xamarin.forms.4.1.0.618606.nupkg.sha512",
         "xamarin.forms.nuspec"
       ]
     },
@@ -1061,7 +1061,7 @@
   "projectFileDependencyGroups": {
     "Xamarin.iOS,Version=v1.0": [
       "TopContentViewTest >= 1.0.0",
-      "Xamarin.Forms >= 4.1.0.581479"
+      "Xamarin.Forms >= 4.1.0.618606"
     ]
   },
   "packageFolders": {
@@ -1070,11 +1070,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/leowetterek/Desktop/TopContentView/TopContentViewTest.iOS/TopContentViewTest.iOS.csproj",
+      "projectUniqueName": "/Users/leowetterek/Projects/TopContentView/TopContentViewTest.iOS/TopContentViewTest.iOS.csproj",
       "projectName": "TopContentViewTest.iOS",
-      "projectPath": "/Users/leowetterek/Desktop/TopContentView/TopContentViewTest.iOS/TopContentViewTest.iOS.csproj",
+      "projectPath": "/Users/leowetterek/Projects/TopContentView/TopContentViewTest.iOS/TopContentViewTest.iOS.csproj",
       "packagesPath": "/Users/leowetterek/.nuget/packages/",
-      "outputPath": "/Users/leowetterek/Desktop/TopContentView/TopContentViewTest.iOS/obj/",
+      "outputPath": "/Users/leowetterek/Projects/TopContentView/TopContentViewTest.iOS/obj/",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
@@ -1089,8 +1089,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "/Users/leowetterek/Desktop/TopContentView/TopContentViewTest/TopContentViewTest.csproj": {
-              "projectPath": "/Users/leowetterek/Desktop/TopContentView/TopContentViewTest/TopContentViewTest.csproj"
+            "/Users/leowetterek/Projects/TopContentView/TopContentViewTest/TopContentViewTest.csproj": {
+              "projectPath": "/Users/leowetterek/Projects/TopContentView/TopContentViewTest/TopContentViewTest.csproj"
             }
           }
         }
@@ -1101,7 +1101,7 @@
         "dependencies": {
           "Xamarin.Forms": {
             "target": "Package",
-            "version": "[4.1.0.581479, )"
+            "version": "[4.1.0.618606, )"
           }
         }
       }
