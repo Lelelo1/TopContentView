@@ -3,7 +3,8 @@
     xmlns="http://xamarin.com/schemas/2014/forms"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     x:Class="TopContentViewTest.Views.TestPage"
-    xmlns:control="clr-namespace:TopContentView;assembly=TopContentView">
+    xmlns:control="clr-namespace:Namespace;assembly=TopContentView"
+    >
     <ContentPage.Content>
         <StackLayout x:Name="rootStack">
             <Button Text="test" WidthRequest="100" BackgroundColor="Silver" HorizontalOptions="Center" Clicked="Handle_Clicked"/>
