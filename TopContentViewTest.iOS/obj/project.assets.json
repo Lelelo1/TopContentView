@@ -149,7 +149,7 @@
           "build/Xamarin.Forms.targets": {}
         }
       },
-      "TopContentView/1.0.0": {
+      "TopContentView/1.0.1": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
@@ -166,7 +166,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "TopContentView": "1.0.0",
+          "TopContentView": "1.0.1",
           "Xamarin.Essentials": "1.2.0",
           "Xamarin.Forms": "4.1.0.618606"
         },
@@ -326,7 +326,7 @@
           "build/Xamarin.Forms.targets": {}
         }
       },
-      "TopContentView/1.0.0": {
+      "TopContentView/1.0.1": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
@@ -343,7 +343,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "TopContentView": "1.0.0",
+          "TopContentView": "1.0.1",
           "Xamarin.Essentials": "1.2.0",
           "Xamarin.Forms": "4.1.0.618606"
         },
@@ -503,7 +503,7 @@
           "build/Xamarin.Forms.targets": {}
         }
       },
-      "TopContentView/1.0.0": {
+      "TopContentView/1.0.1": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
@@ -520,7 +520,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "TopContentView": "1.0.0",
+          "TopContentView": "1.0.1",
           "Xamarin.Essentials": "1.2.0",
           "Xamarin.Forms": "4.1.0.618606"
         },
@@ -680,7 +680,7 @@
           "build/Xamarin.Forms.targets": {}
         }
       },
-      "TopContentView/1.0.0": {
+      "TopContentView/1.0.1": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
@@ -697,7 +697,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "TopContentView": "1.0.0",
+          "TopContentView": "1.0.1",
           "Xamarin.Essentials": "1.2.0",
           "Xamarin.Forms": "4.1.0.618606"
         },
@@ -1047,7 +1047,7 @@
         "xamarin.forms.nuspec"
       ]
     },
-    "TopContentView/1.0.0": {
+    "TopContentView/1.0.1": {
       "type": "project",
       "path": "../TopContentView/TopContentView.csproj",
       "msbuildProject": "../TopContentView/TopContentView.csproj"
@@ -1084,6 +1084,7 @@
         "xamarinios10"
       ],
       "sources": {
+        "/Users/leowetterek/Projects/TestNuGets/LocalNuGets": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {

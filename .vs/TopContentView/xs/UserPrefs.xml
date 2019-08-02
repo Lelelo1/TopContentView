@@ -5,17 +5,7 @@
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="TopContentView" expanded="True">
-            <Node name="TopContentView" expanded="True">
-              <Node name="Dependencies" expanded="True" />
-              <Node name="TopContentView" expanded="True" />
-            </Node>
-            <Node name="TopContentViewTest" expanded="True">
-              <Node name="Views" expanded="True">
-                <Node name="TestPage.xaml" expanded="True">
-                  <Node name="TestPage.xaml.cs" selected="True" />
-                </Node>
-              </Node>
-            </Node>
+            <Node name="TopContentView" expanded="True" selected="True" />
           </Node>
         </State>
       </Pad>

@@ -5,7 +5,7 @@
   },
   "projects": {
     "/Users/leowetterek/Projects/TopContentView/TopContentView/TopContentView.csproj": {
-      "version": "1.0.0",
+      "version": "1.0.1",
       "restore": {
         "projectUniqueName": "/Users/leowetterek/Projects/TopContentView/TopContentView/TopContentView.csproj",
         "projectName": "TopContentView",
@@ -23,6 +23,7 @@
           "netstandard2.0"
         ],
         "sources": {
+          "/Users/leowetterek/Projects/TestNuGets/LocalNuGets": {},
           "https://api.nuget.org/v3/index.json": {},
           "https://dotnetfeed.blob.core.windows.net/aspnet-aspnetcore-tooling/index.json": {},
           "https://dotnetfeed.blob.core.windows.net/aspnet-aspnetcore/index.json": {},
@@ -50,6 +51,12 @@
               "target": "Package",
               "version": "[2.0.3, )",
               "autoReferenced": true
+            },
+            "NuGet.Build.Packaging": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[0.2.5-dev.8, )"
             },
             "Xamarin.Forms": {
               "target": "Package",
