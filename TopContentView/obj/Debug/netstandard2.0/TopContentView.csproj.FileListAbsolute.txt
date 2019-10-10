@@ -37,3 +37,12 @@
 /Users/leowetterek/Projects/TopContentView/TopContentView/obj/Debug/netstandard2.0/XamlC.stamp
 /Users/leowetterek/Projects/TopContentView/TopContentView/obj/Debug/netstandard2.0/TopContentView.dll
 /Users/leowetterek/Projects/TopContentView/TopContentView/obj/Debug/netstandard2.0/TopContentView.pdb
+C:\Users\Leo\Projects\TopContentView\TopContentView\obj\Debug\netstandard2.0\TopContentView.dll
+C:\Users\Leo\Projects\TopContentView\TopContentView\obj\Debug\netstandard2.0\TopContentView.pdb
+C:\Users\Leo\Projects\TopContentView\TopContentView\bin\Debug\netstandard2.0\TopContentView.deps.json
+C:\Users\Leo\Projects\TopContentView\TopContentView\bin\Debug\netstandard2.0\TopContentView.dll
+C:\Users\Leo\Projects\TopContentView\TopContentView\bin\Debug\netstandard2.0\TopContentView.pdb
+C:\Users\Leo\Projects\TopContentView\TopContentView\obj\Debug\netstandard2.0\TopContentView.csprojAssemblyReference.cache
+C:\Users\Leo\Projects\TopContentView\TopContentView\obj\Debug\netstandard2.0\TopContentView.AssemblyInfoInputs.cache
+C:\Users\Leo\Projects\TopContentView\TopContentView\obj\Debug\netstandard2.0\TopContentView.AssemblyInfo.cs
+C:\Users\Leo\Projects\TopContentView\TopContentView\obj\Debug\netstandard2.0\XamlC.stamp

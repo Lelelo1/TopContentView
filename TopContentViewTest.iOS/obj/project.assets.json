@@ -149,7 +149,7 @@
           "build/Xamarin.Forms.targets": {}
         }
       },
-      "TopContentView/1.0.1": {
+      "TopContentView/1.0.2": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
@@ -166,7 +166,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "TopContentView": "1.0.1",
+          "TopContentView": "1.0.2",
           "Xamarin.Essentials": "1.2.0",
           "Xamarin.Forms": "4.1.0.618606"
         },
@@ -326,7 +326,7 @@
           "build/Xamarin.Forms.targets": {}
         }
       },
-      "TopContentView/1.0.1": {
+      "TopContentView/1.0.2": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
@@ -343,7 +343,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "TopContentView": "1.0.1",
+          "TopContentView": "1.0.2",
           "Xamarin.Essentials": "1.2.0",
           "Xamarin.Forms": "4.1.0.618606"
         },
@@ -503,7 +503,7 @@
           "build/Xamarin.Forms.targets": {}
         }
       },
-      "TopContentView/1.0.1": {
+      "TopContentView/1.0.2": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
@@ -520,7 +520,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "TopContentView": "1.0.1",
+          "TopContentView": "1.0.2",
           "Xamarin.Essentials": "1.2.0",
           "Xamarin.Forms": "4.1.0.618606"
         },
@@ -680,7 +680,7 @@
           "build/Xamarin.Forms.targets": {}
         }
       },
-      "TopContentView/1.0.1": {
+      "TopContentView/1.0.2": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
@@ -697,7 +697,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "TopContentView": "1.0.1",
+          "TopContentView": "1.0.2",
           "Xamarin.Essentials": "1.2.0",
           "Xamarin.Forms": "4.1.0.618606"
         },
@@ -712,7 +712,7 @@
   },
   "libraries": {
     "System.Numerics.Vectors/4.5.0": {
-      "sha512": "2THLW7FaShCmNl+3uCDulGYSgtJBoOzQzDUFW+V8+cyS7kGGhmaJLCtimP47SGZtJd6LsWTBr0a6BfkKaeX2JA==",
+      "sha512": "QQTlPTl06J/iiDbJCiepZ4H//BVraReU4O4EoRw1U02H5TLUIT7xn3GnDp9AXPSlJUDyFs4uWjWafNX6WrAojQ==",
       "type": "package",
       "path": "system.numerics.vectors/4.5.0",
       "files": [
@@ -1047,7 +1047,7 @@
         "xamarin.forms.nuspec"
       ]
     },
-    "TopContentView/1.0.1": {
+    "TopContentView/1.0.2": {
       "type": "project",
       "path": "../TopContentView/TopContentView.csproj",
       "msbuildProject": "../TopContentView/TopContentView.csproj"
@@ -1065,33 +1065,40 @@
     ]
   },
   "packageFolders": {
-    "/Users/leowetterek/.nuget/packages/": {}
+    "C:\\Users\\Leo\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/leowetterek/Projects/TopContentView/TopContentViewTest.iOS/TopContentViewTest.iOS.csproj",
+      "projectUniqueName": "C:\\Users\\Leo\\Projects\\TopContentView\\TopContentViewTest.iOS\\TopContentViewTest.iOS.csproj",
       "projectName": "TopContentViewTest.iOS",
-      "projectPath": "/Users/leowetterek/Projects/TopContentView/TopContentViewTest.iOS/TopContentViewTest.iOS.csproj",
-      "packagesPath": "/Users/leowetterek/.nuget/packages/",
-      "outputPath": "/Users/leowetterek/Projects/TopContentView/TopContentViewTest.iOS/obj/",
+      "projectPath": "C:\\Users\\Leo\\Projects\\TopContentView\\TopContentViewTest.iOS\\TopContentViewTest.iOS.csproj",
+      "packagesPath": "C:\\Users\\Leo\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Leo\\Projects\\TopContentView\\TopContentViewTest.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
+      "fallbackFolders": [
+        "C:\\Microsoft\\Xamarin\\NuGet\\"
+      ],
       "configFilePaths": [
-        "/Users/leowetterek/.config/NuGet/NuGet.Config"
+        "C:\\Users\\Leo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "xamarinios10"
       ],
       "sources": {
-        "/Users/leowetterek/Projects/TestNuGets/LocalNuGets": {},
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Users\\Leo\\Desktop": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "/Users/leowetterek/Projects/TopContentView/TopContentViewTest/TopContentViewTest.csproj": {
-              "projectPath": "/Users/leowetterek/Projects/TopContentView/TopContentViewTest/TopContentViewTest.csproj"
+            "C:\\Users\\Leo\\Projects\\TopContentView\\TopContentViewTest\\TopContentViewTest.csproj": {
+              "projectPath": "C:\\Users\\Leo\\Projects\\TopContentView\\TopContentViewTest\\TopContentViewTest.csproj"
             }
           }
         }

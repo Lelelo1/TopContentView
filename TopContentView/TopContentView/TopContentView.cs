@@ -255,7 +255,7 @@ namespace Namespace
         private void Collection_CollectionChanged(object sender, NotifyCollectionChangedEventArgs eventArgs)
         {
             // Console.WriteLine("CollectionChanged");
-            var elementCollection = (IList<Element>)sender;
+            var elementCollection = (IList<View>)sender;
             var ordered = elementCollection.OrderBy((element) => element is TopContentView);
 
             if (!elementCollection.SequenceEqual(ordered))

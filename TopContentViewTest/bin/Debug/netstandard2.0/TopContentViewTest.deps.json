@@ -10,7 +10,7 @@
       "TopContentViewTest/1.0.0": {
         "dependencies": {
           "NETStandard.Library": "2.0.3",
-          "TopContentView": "1.0.0",
+          "TopContentView": "1.0.1",
           "Xamarin.Essentials": "1.2.0",
           "Xamarin.Forms": "4.1.0.618606"
         },
@@ -59,7 +59,7 @@
           }
         }
       },
-      "TopContentView/1.0.0": {
+      "TopContentView/1.0.1": {
         "dependencies": {
           "Xamarin.Forms": "4.1.0.618606"
         },
@@ -85,14 +85,14 @@
     "NETStandard.Library/2.0.3": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-lNqxWjIkIucKLb++lhwav/2cUD1n2HFynS2YcFDsZsZaN5KJjPJ/QzYKYoCiYxJrl3uQyPFZddiJv8B0vdNedg==",
+      "sha512": "sha512-st47PosZSHrjECdjeIzZQbzivYBJFv6P2nv4cj2ypdI204DO+vZ7l5raGMiX4eXMJ53RfOIg+/s4DHVZ54Nu2A==",
       "path": "netstandard.library/2.0.3",
       "hashPath": "netstandard.library.2.0.3.nupkg.sha512"
     },
     "System.Numerics.Vectors/4.5.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-2THLW7FaShCmNl+3uCDulGYSgtJBoOzQzDUFW+V8+cyS7kGGhmaJLCtimP47SGZtJd6LsWTBr0a6BfkKaeX2JA==",
+      "sha512": "sha512-QQTlPTl06J/iiDbJCiepZ4H//BVraReU4O4EoRw1U02H5TLUIT7xn3GnDp9AXPSlJUDyFs4uWjWafNX6WrAojQ==",
       "path": "system.numerics.vectors/4.5.0",
       "hashPath": "system.numerics.vectors.4.5.0.nupkg.sha512"
     },
@@ -110,7 +110,7 @@
       "path": "xamarin.forms/4.1.0.618606",
       "hashPath": "xamarin.forms.4.1.0.618606.nupkg.sha512"
     },
-    "TopContentView/1.0.0": {
+    "TopContentView/1.0.1": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
